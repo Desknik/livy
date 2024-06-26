@@ -7,11 +7,11 @@ export default function Home() {
       <h1 className="text-3xl font-bold text-center mb-4">FELIZ ANIVERSÁRIOO!!!!</h1>
 
       <div className="w-full flex flex-col justify-center items-end mb-4">
-        <p>Hoje é um dia muito especial para mim, pois é o aniversário de uma pessoa muito especial que esteve comigo desde quando eu era um menininho pequenino que gostava de funk. Nossa amizade foi instantânea e forte, como se estivéssemos destinados a nos encontrar e caminhar juntos. Você, com sua luz e energia, entrou na minha vida e logo também se tornou uma "retardadinha" que gostava de funk junto comigo.</p>
+        <p>Hoje é um dia muito especial para mim, pois é o aniversário de uma pessoa muito especial que esteve comigo desde quando eu era um menininho pequenino que gostava de funk. Nossa amizade foi instantânea e forte, como se estivéssemos destinados a nos encontrar e caminhar juntos. Você, com sua luz e energia, entrou na minha vida e logo também se tornou uma &quot;retardadinha&quot; que gostava de funk junto comigo.</p>
       </div>
 
       <div className="w-full">
-        <iframe  className="w-full" width="560" height="280" src="https://www.youtube.com/embed/HvYgke2fBeg?si=U38LIGqdpJj-IrWZ&amp;controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe  className="w-full" width="560" height="280" src="https://www.youtube.com/embed/HvYgke2fBeg?si=U38LIGqdpJj-IrWZ&amp;controls=0&autoplay=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       </div>
    
 
@@ -80,7 +80,7 @@ export default function Home() {
       </div>
      
    
-      <p className="mt-12">eu demorei um pouco para fazer isso, mas não esqueci seu aniversário n, desculpa mandar só agora, dia foi meio corrido :((( </p>
+      <p className="mt-12">eu demorei um pouco para fazer isso, mas não esqueci seu aniversário n, desculpa mandar só agora, dia foi meio corrido :((( epero que goste, foi simples, mas fiz de coração :)</p>
     </main>
   );
 }
