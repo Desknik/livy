@@ -1,113 +1,86 @@
 import Image from "next/image";
+import Eyes from "../public/eyes.png";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <main className="flex min-h-screen flex-col items-center py-24 px-6">
+      <h1 className="text-3xl font-bold text-center mb-4">FELIZ ANIVERSÁRIOO!!!!</h1>
+
+      <div className="w-full flex flex-col justify-center items-end mb-4">
+        <p>Hoje é um dia muito especial para mim, pois é o aniversário de uma pessoa muito especial que esteve comigo desde quando eu era um menininho pequenino que gostava de funk. Nossa amizade foi instantânea e forte, como se estivéssemos destinados a nos encontrar e caminhar juntos. Você, com sua luz e energia, entrou na minha vida e logo também se tornou uma "retardadinha" que gostava de funk junto comigo.</p>
       </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className="w-full">
+        <iframe  className="w-full" width="560" height="280" src="https://www.youtube.com/embed/HvYgke2fBeg?si=U38LIGqdpJj-IrWZ&amp;controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+   
+
+      <div className="w-full flex flex-col mt-4 gap-4">
+            <div className="w-full flex flex-col justify-center items-end mb-4">
+              <p>Ainda lembro de vários momentos incríveis que passamos juntos, das risadas, das músicas e das nossas idiotices de quando eramos menores. O tempo foi passando e o menininho foi crescendo, e até teve um momento em que se distanciamos um pouco.</p>
+              <p>Mas mesmo com o passar dos anos e a distância, nossa amizade nunca acabou. Ela ficou guardada com esse menininho, até nossos caminhos se juntarem novamente e voltar mais forte que antes!</p>
+            </div>
+
+            <div className="w-full h-48 flex justify-center items-center rounded-md shadow-lg md:w-48 overflow-hidden">
+              <Image className="w-full object-center -rotate-90 scale-75 md:rotate-0" width="100" height="100" src="/Friends.jpeg" alt="Eyes"></Image>
+            </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <div className="w-full flex flex-col mt-4 gap-4">
+            <div className="w-full flex flex-col justify-center items-end mb-4">
+              <p>E voltou! Hoje, aquele menininho cresceu, e a amizade que tivemos cresceu junto com ele. E agora, depois de tanto tempo, voltamos a nos falar, e é maravilhoso ver que nossa amizade voltou ainda mais forte. E sim, ainda continuamos sendo dois retardados, e ainda continuo sendo aquele menininho que gosta de funk ksksksks.</p>
+            </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+            <div className="w-full h-48 flex justify-center items-center rounded-md shadow-lg md:w-48 overflow-hidden">           
+            <video className="w-full" width="320" height="240" controls preload="none">
+              <source src="/Vid.mp4" type="/video.mp4" />
+              <track
+                src="/path/to/captions.vtt"
+                kind="subtitles"
+                srcLang="en"
+                label="English"
+              />
+              Your browser does not support the video tag.
+            </video>
+            </div>
+            <p>Espero que essa amizade dure longos e longos anos, pois você é uma parte essencial da minha vida.</p>
       </div>
+
+      <div className="w-full flex flex-col mt-6 gap-4">
+            <div className="w-full flex justify-center items-center rounded-md shadow-lg md:w-48 overflow-hidden">
+              <Image className="w-full object-center md:rotate-0" width="100" height="100" src="/caipiras.jpeg" alt="Eyes"></Image>
+            </div>
+
+            <div className="w-full flex flex-col justify-center items-end mb-4">
+              <p>Quero te desejar um feliz aniversário. Que Deus te abençoe e que você consiga conquistar tudo o que deseja. Você é uma pessoa incrível e merece tudo de bom na vida. Ultimamente, não estamos nos falando tanto por conta do trabalho e minha mente anda uma bagunça, amiga, kkkk. Mas pode ter certeza de que esse menininho nunca vai deixar essa amizade acabar. Onde quer que eu esteja, estarei sempre torcendo por você.</p>
+            </div>
+      </div>
+
+      <div className="w-full flex flex-col mt-6 gap-4">
+            <div className="w-full flex justify-center items-center rounded-md shadow-lg md:w-48 overflow-hidden">
+              <Image className="w-full object-center md:rotate-0" width="100" height="100" src="/pow.jpeg" alt="Eyes"></Image>
+            </div>
+
+            <div className="w-full flex flex-col justify-center items-end mb-4">
+              <p>Sempre estarei ao seu lado, te apoiando nas suas escolhas, te aconselhando e te até te julgando kkkkkk. Continue sendo essa pessoa maravilhosa que você é. Você ainda vai muito longe na sua vida, e tenho certeza disso. E quando atingir suas metas, ainda estarei lá, torcendo por você e enchendo seu saco :)
+                <br/>
+                Te amo, amiga. Desejo tudo de bom para você. Feliz aniversário!</p>              
+            </div>
+      </div>
+
+
+      <div className="w-full flex mt-6">
+        <div className="w-full flex flex-col justify-between gap-2">
+            <div className="rounded-md shadow-lg w-full h-72 overflow-hidden">
+              <Image className="w-full h-full object-cover" width="100" height="100" src="/Eyes.jpg" alt="Eyes"></Image>
+            </div>
+            
+            <p className="w-96">Se Van Gogh tivesse visto o brilho do seu olhar, ele teria abandonado as estrelas noturnas, pois entenderia que nenhuma luz no céu poderia competir com a intensidade e a magia que seu olhar espalha ao seu redor.</p>
+          </div>
+      </div>
+     
+   
+      <p className="mt-12">eu demorei um pouco para fazer isso, mas não esqueci seu aniversário n, desculpa mandar só agora, dia foi meio corrido :((( </p>
     </main>
   );
 }
